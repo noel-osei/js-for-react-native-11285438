@@ -9,7 +9,7 @@ function processArray(arr) {
     }
     return result;
 }
-var numbers = [1, 2, 3, 4, 5];
+var numbers = [1, 4, 9, 8, 5];
 var processedNumbers = processArray(numbers);
 console.log(processedNumbers);
 
@@ -17,7 +17,7 @@ console.log(processedNumbers);
 
 
 var strings = ["Hello", "World", "Doctors", "Books", "Love"];
-var numbers = [1, 2, 3, 4, 5];
+var numbers = [1, 4, 9, 8, 5];
 var processedNumbers = processArray(numbers); 
 var formattedStrings = formatArrayStrings(strings, processedNumbers);
 console.log(formattedStrings);
